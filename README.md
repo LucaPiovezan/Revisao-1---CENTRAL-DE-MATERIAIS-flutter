@@ -1,12 +1,18 @@
-# Central de materiais
+# Como executar
 
-Aplicativo Flutter para controlar materiais usados em apresentações, oficinas e eventos.
+Com Flutter e Google Chrome instalados, extraia o ZIP e abra um terminal na
+pasta do projeto, onde está o arquivo `pubspec.yaml`.
 
-## Executar no Chrome
+Instale as dependências:
 
-```bash
+```sh
 flutter pub get
+```
+
+Execute no Chrome:
+
+```sh
 flutter run -d chrome --web-port=8080
 ```
 
-Os arquivos `web/sqlite3.wasm` e `web/sqflite_sw.js` já fazem parte do projeto.
+Para encerrar, pressione `Ctrl+C` no terminal.
